@@ -45,7 +45,7 @@ class PrincipalController extends Controller
     }
 
     /**
-     * @Route("/contact", name="contacto_page")
+     * @Route("/contacto", name="contacto_page")
      */
     public function ContactoPage(){
         return $this->render('principal/contact.html.twig');
